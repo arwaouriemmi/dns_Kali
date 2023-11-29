@@ -1,0 +1,17 @@
+$TTL    604800
+@       IN      SOA     ns.domaineperso.tn  root.localhost. (
+                              11         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      ns.domaineperso.tn.
+ns      IN      A       192.168.56.102
+apache  IN      A       192.168.56.102
+ldap    IN      A       10.0.2.15
+openvpn IN      A       127.0.0.1
+ 
+
+
+
